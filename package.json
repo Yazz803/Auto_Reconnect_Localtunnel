@@ -1,0 +1,19 @@
+{
+  "name": "reconnect_localtunnel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "forever main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "localtunnel": "^2.0.2"
+  },
+  "devDependencies": {
+    "forever": "^4.0.3"
+  }
+}
